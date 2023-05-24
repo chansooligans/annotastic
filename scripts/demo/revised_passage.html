@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="styles.css">
+            <script type="module" src="https://unpkg.com/rough-notation?module"></script>
+            
+            <!-- Development -->
+            <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+            <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+            <!-- Production -->
+            <!-- <script src="https://unpkg.com/@popperjs/core@2"></script>
+            <script src="https://unpkg.com/tippy.js@6"></script> -->
+        </head>
+        <body>
+        <div>
+        <h1>Sample Document</h1>
+        <br><br>
+        <br><span id="revision0" class="tooltip"><span id="revision0" class="tooltip">Almost a year has passed since the Bureau of Economic Analysis announced that the U.S. economy had contracted for two quarters in a row</span></span>. <span id="revision1" class="tooltip"><span id="revision1" class="tooltip">Some people believe, wrongly, that two quarters of falling G.D.P. is the official definition of a recession</span></span>. <span id="revision2" class="tooltip"><span id="revision2" class="tooltip">Economic negativity ran rampant, especially but not only on the political right</span></span>.<br><br><span id="revision3" class="tooltip"><span id="revision3" class="tooltip">The interesting question now is why</span></span>, at least <span id="revision4" class="tooltip"><span id="revision4" class="tooltip">according to some surveys</span></span>, the public remains very negative on the economy — as negative as it has been in the past amid severe economic downturns — even though those recession calls were clearly a false alarm, and the economy is actually looking remarkably strong. Or maybe the question should be why people say that they're very negative on the economy.<br><br><span id="revision5" class="tooltip">This is a touchy subject, albeit one I&#x27;ve commented on before</span>. <span id="revision6" class="tooltip">You don&#x27;t want to say that Americans are stupid</span>; you certainly don't want to sound like that John McCain adviser who insisted that America was a “nation of whiners” who were experiencing only a “mental recession.”<br><br>On the other hand, there are now huge gaps between what people say about the economy and both what the data says and what they say about their own experience. And we have some new information on what lies behind these gaps.<br><br>First, about that much-hyped “Biden recession.” The actual definition of a recession involves several economic indicators, and aside from those G.D.P. numbers, nothing that has happened to the economy looks remotely like a recession.<br><br>Since December 2021 the U.S. economy has added almost six million jobs while the unemployment rate has fallen from 3.9 percent to 3.4 percent, <span id="revision7" class="tooltip"><span id="revision7" class="tooltip">a level not seen since the 1960s</span></span>. And no, unemployment isn't low because Americans have dropped out of the labor force: The percentage of adults either working or looking for a job has declined, but that's almost entirely a result of an aging population, and labor force participation is right back in line with prepandemic projections.<br><br>And these are good jobs, according to workers themselves. <span id="revision8" class="tooltip"><span id="revision8" class="tooltip">According to the Conference Board</span></span>, which has been surveying job satisfaction since 1987, “U.S. workers have never been more content.”<br><br>To be sure, the return of serious inflation after decades of quiescence rattled everyone, and not just because it reduced real incomes. (<span id="revision9" class="tooltip">Real wages fell during Ronald Reagan&#x27;s second term</span>, but people felt pretty good about the economy anyway.) One benefit of low inflation is that it gives people one less thing to worry about; according to the American Psychological Association, inflation was a major source of stress during 2022.<br><br><span id="revision10" class="tooltip"><span id="revision10" class="tooltip">But inflation, while still elevated, has come way down</span></span>. The inflation rate over the past six months was 3.3 percent, compared with 9.6 percent last June. <span id="revision11" class="tooltip"><span id="revision11" class="tooltip">The price of gasoline</span></span>, a major political talking point last year, is now more or less normal compared with average earnings.<br><br>And people have noticed. <span id="revision12" class="tooltip"><span id="revision12" class="tooltip">In October, 20 percent of Americans named inflation as</span></span> the most important problem facing the nation; that's now down to 9 percent.<br><br>So what's going on? The general rule seems to be that Americans are feeling good about their personal situation but believe that bad things are happening to other people. <span id="revision13" class="tooltip"><span id="revision13" class="tooltip">A Federal Reserve study found that in late 2021</span></span> a record-high percentage of Americans were positive about their own finances while a record low were positive about the economy. We don't have results for 2022 yet, but my guess is that they'll look similar.<br><br><span id="revision14" class="tooltip"><span id="revision14" class="tooltip">Partisanship surely explains much of this divergence</span></span>. <span id="revision15" class="tooltip"><span id="revision15" class="tooltip">A newly published study shows that</span></span> who holds the White House has huge effects on views of the economy; this is true for supporters of both parties, although the effect appears to be about twice as strong for Republicans. The study also finds, however, that these changes in reported views don't appear to have any effect on actual spending — that they reflect “cheerleading,” as opposed to “actual expectations.”<br><br><span id="revision16" class="tooltip">Beyond that, there&#x27;s good reason to believe</span> that media reports about the economy have had a strongly negative bias. One thing that has gone really, really right in America lately is job creation, yet <span id="revision17" class="tooltip"><span id="revision17" class="tooltip">the public consistently reports having heard more</span></span> negative than positive news about employment.<br><br>And let's not let economists off the hook. <span id="revision18" class="tooltip">As Mark Zandi of Moody&#x27;s Analytics points out</span>, many economists have been predicting recession month after month for the past year. Sooner or later, a recession will no doubt happen, but as he says, “In my 30-plus years as a professional economist, I've never seen such recession pessimism,” even as the economy has remained resilient. And this pessimism has surely filtered through to the public.<br><br><span id="revision19" class="tooltip"><span id="revision19" class="tooltip">So where does all this leave us?</span></span> America hasn't yet brought inflation back to prepandemic levels, and we may yet have an economic hard landing. But so far, at least, we've had a stunningly successful recovery from the Covid shock.<br><br>While many Americans tell surveys that things are terrible — which says something about how people respond to surveys and where they get their information — this doesn't contradict that positive assessment.<br>
+        <br><br>
+        </div>
+        </body>
+        <script type="module">
+        
+    import { annotate, annotationGroup } from 'https://unpkg.com/rough-notation?module';
+
+    const e0 = document.querySelector('span#revision0');
+const e1 = document.querySelector('span#revision1');
+const e2 = document.querySelector('span#revision2');
+const e3 = document.querySelector('span#revision3');
+const e4 = document.querySelector('span#revision4');
+const e5 = document.querySelector('span#revision5');
+const e6 = document.querySelector('span#revision6');
+const e7 = document.querySelector('span#revision7');
+const e8 = document.querySelector('span#revision8');
+const e9 = document.querySelector('span#revision9');
+const e10 = document.querySelector('span#revision10');
+const e11 = document.querySelector('span#revision11');
+const e12 = document.querySelector('span#revision12');
+const e13 = document.querySelector('span#revision13');
+const e14 = document.querySelector('span#revision14');
+const e15 = document.querySelector('span#revision15');
+const e16 = document.querySelector('span#revision16');
+const e17 = document.querySelector('span#revision17');
+const e18 = document.querySelector('span#revision18');
+const e19 = document.querySelector('span#revision19');
+
+    const a0 = annotate(e0, { type: 'bracket', color: 'grey' });
+const a1 = annotate(e1, { type: 'bracket', color: 'orange' });
+const a2 = annotate(e2, { type: 'bracket', color: 'orange' });
+const a3 = annotate(e3, { type: 'bracket', color: 'grey' });
+const a4 = annotate(e4, { type: 'underline', color: 'orange' });
+const a5 = annotate(e5, { type: 'bracket', color: 'grey' });
+const a6 = annotate(e6, { type: 'bracket', color: 'grey' });
+const a7 = annotate(e7, { type: 'bracket', color: 'grey' });
+const a8 = annotate(e8, { type: 'underline', color: 'orange' });
+const a9 = annotate(e9, { type: 'bracket', color: 'grey' });
+const a10 = annotate(e10, { type: 'bracket', color: 'orange' });
+const a11 = annotate(e11, { type: 'underline', color: 'grey' });
+const a12 = annotate(e12, { type: 'bracket', color: 'orange' });
+const a13 = annotate(e13, { type: 'bracket', color: 'orange' });
+const a14 = annotate(e14, { type: 'bracket', color: 'grey' });
+const a15 = annotate(e15, { type: 'bracket', color: 'orange' });
+const a16 = annotate(e16, { type: 'bracket', color: 'grey' });
+const a17 = annotate(e17, { type: 'bracket', color: 'orange' });
+const a18 = annotate(e18, { type: 'bracket', color: 'orange' });
+const a19 = annotate(e19, { type: 'bracket', color: 'grey' });
+
+    const animation = annotationGroup([a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19]);
+    animation.show();
+    
+        </script>
+        <script>
+        
+    document.addEventListener('DOMContentLoaded', (event) => {
+        tippy('.tooltip', {
+            content(reference) {
+                const id = reference.id;
+                switch (id) {case 'revision0':
+    return 'Consider mentioning the specific quarters for clarity.';
+case 'revision1':
+    return 'Include the actual definition of a recession for better context.';
+case 'revision2':
+    return 'Provide specific examples or evidence to support this claim.';
+case 'revision3':
+    return 'Rephrase to sound more objective, e.g., \'A key question to consider is...\'';
+case 'revision4':
+    return 'Cite the specific surveys being referenced.';
+case 'revision5':
+    return 'Remove mention of personal experience for a more objective tone.';
+case 'revision6':
+    return 'Rephrase to avoid any negative connotations, e.g., \'We must be careful not to imply...\'';
+case 'revision7':
+    return 'Add the specific year or range for precision.';
+case 'revision8':
+    return 'Include a footnote or link to the source for the readers to explore.';
+case 'revision9':
+    return 'Include specific years or time frame for clarity.';
+case 'revision10':
+    return 'Provide specific statistics on the current inflation rate for additional context.';
+case 'revision11':
+    return 'Include the current price of gasoline for better context.';
+case 'revision12':
+    return 'Include the source of this information (e.g., a poll, survey, or study).';
+case 'revision13':
+    return 'Include a footnote or link to the specific study mentioned.';
+case 'revision14':
+    return 'Avoid making assumptions, e.g., rephrase as \'Partisanship may explain some of this divergence.\'';
+case 'revision15':
+    return 'Include the title, authors, and source of the study.';
+case 'revision16':
+    return 'Rephrase to sound more objective, e.g., \'Additionally, evidence suggests...\'';
+case 'revision17':
+    return 'Provide a source for this claim (e.g., a study or poll).';
+case 'revision18':
+    return 'Add a link or citation to his specific statement, report, or analysis.';
+case 'revision19':
+    return 'Rephrase for a more formal tone, e.g., \'Considering these factors, the current economic situation can be summarized as follows.\'';}
+                
+            }
+        });
+    });
+    
+        </script>
+        </html>
+    
